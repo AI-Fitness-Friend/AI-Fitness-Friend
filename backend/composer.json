@@ -1,0 +1,19 @@
+{
+    "name": "seop/simple",
+    "description": "simple PHP framework",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Hyeonseop Jeong",
+            "email": "gustjq1101@naver.com"
+        }
+    ],
+    "autoload": {
+      "psr-4": {
+          "Simple\\": ".simple-framework/",
+          "App\\": "app/"
+      }
+    },
+    "require": {}
+}
