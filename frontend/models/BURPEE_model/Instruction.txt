@@ -1,0 +1,2 @@
+1. BURPEE_DOWN (푸쉬업 굽힌/안굽힌)
+2. BURPEE_UP (X종료, Y휴식)

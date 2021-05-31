@@ -1,0 +1,2 @@
+class 1 stand stance
+class 2 squat stance

@@ -1,0 +1,1 @@
+{"tfjsVersion":"1.3.1","tmVersion":"0.8.6","packageVersion":"0.8.6","packageName":"@teachablemachine/pose","timeStamp":"2021-04-29T10:15:35.074Z","userMetadata":{},"modelName":"my-pose-model","labels":["squat_down","squat_up","bad_posture","quit","music_play"],"modelSettings":{"posenet":{"architecture":"MobileNetV1","outputStride":16,"inputResolution":257,"multiplier":0.75}}}
