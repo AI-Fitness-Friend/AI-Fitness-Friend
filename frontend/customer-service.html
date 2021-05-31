@@ -47,7 +47,7 @@
 					<div class="fields">
 						<div class="field half">
 							<label for="name">Name</label>
-							<input type="text" name="name" id="name" placeholder="Michael" required/>
+							<input type="text" name="name" id="name" placeholder="Michael" pattern="[a-zA-Z]*" oninvalid="setCustomValidity('Please enter on alphabets only. ')" required/>
 						</div>
 						<div class="field half">
 							<label for="email">Email</label>
