@@ -11,6 +11,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		
 	</head>
 	<body class="right-sidebar is-preload">
 		<div id="page-wrapper">
@@ -44,15 +45,23 @@
 						<div class="fields">
 							<div class="field half">
 								<label for="name">Name</label>
-								<input type="text" name="name" id="name" />
+								<input type="text" name="name" id="name" placeholder="Michael" required/>
 							</div>
 							<div class="field half">
-								<label for="email">Email</label>
-								<input type="text" name="email" id="email" />
+								<label for="u-name">User Name</label>
+								<input type="text" name="u-name" id="u-name" placeholder="Michael777" required/>
 							</div>
 							<div class="field half">
-								<label><input type="radio" name="gender" value="male"/> Male voice<br></label>
-								<label><input type="radio" name="gender" value="female"/> Female voice<br></label>
+								<label for="email" >Email</label>
+								<input type="email" name="email" id="email" placeholder="micheal1234@fitnessmail.com" />
+							</div>
+							<div class="field half">
+								<label for="password" >Password</label>
+								<input type="password" name="password" id="password"   />
+							</div>
+							<div class="field half">
+								<label class="fcontainer"><input type="radio" name="gender" value="male"/><span class="checkmark"></span> Male voice<br></label>
+								<label class="fcontainer"><input type="radio" name="gender" value="female" checked="checked"/><span class="checkmark"></span> Female voice<br></label>
 							</div>
 						</div>
 						<ul class="actions">
