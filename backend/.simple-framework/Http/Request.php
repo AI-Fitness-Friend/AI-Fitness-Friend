@@ -9,6 +9,6 @@ class Request
     }
 
     public static function getPath() {
-        return $_SERVER['REQUEST_URI'];
+        return current(explode('?', $_SERVER['REQUEST_URI']));
     }
 }

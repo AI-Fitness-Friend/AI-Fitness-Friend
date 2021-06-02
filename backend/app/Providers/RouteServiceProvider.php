@@ -8,7 +8,7 @@ use Simple\Routing\Route;
 class RouteServiceProvider extends ServiceProvider
 {
     public static function register() {
-        require_once dirname(__DIR__, 2) . '/routes/webpage.php';
+        require_once dirname(__DIR__, 2) . '/routes/web.php';
     }
     
     public static function boot() {
