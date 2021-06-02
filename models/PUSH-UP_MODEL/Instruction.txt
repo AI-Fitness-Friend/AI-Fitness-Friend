@@ -1,0 +1,5 @@
+1. PUSH-UP_UP
+
+2. PUSH-UP_DOWN
+
+3. EXIT
