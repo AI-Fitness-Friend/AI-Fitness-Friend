@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <!-- FAVICON-->
     <link rel=" shortcut icon" href="../favicon.ico">
-    <link rel="icon" href="../favicon.ico">    <!-- Required meta tags -->
+    <link rel="icon" href="../favicon.ico">
+    <!-- Required meta tags -->
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     
@@ -18,7 +19,6 @@
     <script type="text/javascript" src="https://pubnub.github.io/eon/v/eon/1.0.0/eon.js"></script>
     <link type="text/css" rel="stylesheet" href="https://pubnub.github.io/eon/v/eon/1.0.0/eon.css"/>
     <title>Jumping Jacks</title>
-    
     <link rel="stylesheet" href="../assets/css/main.css">
 </head>
 
@@ -52,7 +52,7 @@
                 </nav>
             </div>
             <div class="container">
-                <header><h2 style="margin-top: 5%;">Jumping Jacks</h2></header>
+                <header><h2 style="margin-top: 5%;">JUMPING JACKS</h2></header>
                 
                     <!-- Customize-->
                     <div>
@@ -60,7 +60,7 @@
                         <br><br>
                         <label>Num of Rep:</label>
                         <br>
-                        <input type="text" maxlength="3" size="3" id="" name="" value="" style="width: 20%;">
+                        <input type="text" maxlength="3" size="3" id="MaxRepHa" name="" value=100 style="width: 20%;">
                     </div>
                     
                     <div><canvas id="canvas"></canvas></div>
@@ -70,14 +70,14 @@
             <div class="added_container mt-5">
                     <div class="added_frame">
 
-                            <!-- 스퀏 카운터-->
+                            <!-- COUNTER -->
                             <div class="added_headline">
-                                <div class="small">Jumping Jacks</div>Counter
+                                <div class="small">JUMP</div>Counter
                             
                             </div>
                             <div class="added_circle-big">
                                 <div class="text">
-                                    <span id="added_counter">0</span><div class="small"></div>
+                                    <span id="counter">0</span><div class="small"></div>
 
                                 </div>
                                 <svg>
@@ -87,7 +87,7 @@
                             </div>
 
 
-                            <!--스퀏 퍼센테이지-->
+                            <!-- GOOD POSTURE ACCURACY PERCENTAGE -->
                             <div class="added_headline">
                                 <div class="small">GOOD</div>
                             
@@ -104,7 +104,7 @@
                             </div>
                             
 
-                            <!--잘못된 자세 퍼센테이지-->
+                            <!-- BAD POSTURE ACCURACY PERCENTAGE -->
                             <div class="added_headline">
                                 <p class="small" style="text-align: center;">BAD</p>
                             </div>
@@ -121,46 +121,42 @@
                     </div>
                 </div>
                         <!-- Footer -->
-				<div id="footer">
-					<div class="container">
-						<div class="row">
+                <div id="footer">
+                    <div class="container">
+                        <div class="row">
 
-							
-							<div class="col-12">
+                            
+                            <div class="col-12">
 
-								<!-- Contact -->
-									<section class="contact">
-										<header>
-											<h3>We Have a Social Media</h3>
-										</header>
-										<p>Nah We Don't.</p>
-										<ul class="icons">
-											<li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-											<li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-											<li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-											<li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
-											<li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
-											<li><a href="#" class="icon brands fa-linkedin-in"><span class="label">Linkedin</span></a></li>
-										</ul>
-									</section>
+                                <!-- Contact -->
+                                    <section class="contact">
+                                        <header>
+                                            <h3>We Have a Social Media</h3>
+                                        </header>
+                                        <ul class="icons">
+                                            <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+                                            <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+                                            <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+                                            <li><a href="#" class="icon brands fa-pinterest"><span class="label">Pinterest</span></a></li>
+                                            <li><a href="#" class="icon brands fa-dribbble"><span class="label">Dribbble</span></a></li>
+                                            <li><a href="#" class="icon brands fa-linkedin-in"><span class="label">Linkedin</span></a></li>
+                                        </ul>
+                                    </section>
 
-								<!-- Copyright -->
-									<div class="copyright">
-										<ul class="menu">
-											<li>&copy; Handong. All rights reserved.</li><li>Design: <a href="http://www.handong.edu">Design Engineering</a></li>
-										</ul>
-									</div>
+                                <!-- Copyright -->
+                                    <div class="copyright">
+                                        <ul class="menu">
+                                            <li>&copy; Handong. All rights reserved.</li><li>Design: <a href="http://www.handong.edu">Design Engineering</a></li>
+                                        </ul>
+                                    </div>
 
-							</div>
+                            </div>
 
-						</div>
-					</div>
-				</div>
+                        </div>
+                    </div>
+                </div>
 
-		</div>
-                    
-
-
+        </div>
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
@@ -176,7 +172,7 @@
     <script src="https://cdn.jsdelivr.net/npm/@tensorflow/tfjs@1.3.1/dist/tf.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/@teachablemachine/pose@0.8/dist/teachablemachine-pose.min.js"></script>
     
-    <!--도넛차트
+    <!--DONUT CHART
     https://github.com/pubnub/eon-chart/blob/master/readme.md -->
 
     <script>
@@ -217,7 +213,7 @@
           </script>
 
 
-
+          
     <script type="text/javascript">
         // More API functions here:
         // https://github.com/googlecreativelab/teachablemachine-community/tree/master/libraries/pose
@@ -262,10 +258,10 @@
         }
 
         function sleep(ms) {
-  			return new Promise(
-    			resolve => setTimeout(resolve, ms)
- 			);
-		}
+            return new Promise(
+                resolve => setTimeout(resolve, ms)
+            );
+        }
 
         async function loop(timestamp) {
             webcam.update(); // update the webcam frame
@@ -278,22 +274,31 @@
         var wprobprog = 327
         var status = "stand"
         var count = 0
+        var music = "stop"
+        var quit = 0
 
         async function predict() {
+
 
             const { pose, posenetOutput } = await model.estimatePose(webcam.canvas);
             // Prediction 2: run input through teachable machine classification model
             const prediction = await model.predict(posenetOutput);
             
-            // 10% 마이너스 하는게 화면으로는 10% + 
-            if(count==100){
-                location.replace("Athene_3.html")
+
+            // input number of reps == count
+            if(document.getElementById("MaxRepHa").value == count){
+                var audio = new Audio('../data/Voice/한글/유학생/고생했어요.mp3');
+                audio.play();
+                count++;
+                await sleep (1000);
+                // location.replace("index.html"); // test purpose
+                location.replace("../athene/Athene_3.html");
             }
             // prediction[0] -> stand_stance
             // prediction[1] -> squat_stance
-            // prediction[2] -> bad_posture 	// 머리를 오른쪽으로 허리 숙이기
-            // prediction[3] -> quit			// 서서 완벽한 T자. 머리와 팔이 수직
-            // prediction[4] -> music_play		// 오른쪽 화살표. 태권도 하듯이 하면 됨
+            // prediction[2] -> bad_posture     // 머리를 오른쪽으로 허리 숙이기
+            // prediction[3] -> quit            // 서서 완벽한 T자. 머리와 팔이 수직
+            // prediction[4] -> music_play      // 오른쪽 화살표. 태권도 하듯이 하면 됨
 
             // SQUAT COUNTER JAVASCRIPT
             // GOOD POSTURE PERCENTAGE
@@ -310,7 +315,7 @@
             // Prediction #1: run input through posenet
             // estimatePose can take in an image, video or canvas html element
             
-            if (prediction[0].probability.toFixed(2) >= 0.85) {
+            if (prediction[0].probability.toFixed(2) >= 0.90) {
                 if (status == "squat") {
                     count++
                     
@@ -327,13 +332,13 @@
                         audio.play();
                         await sleep(100);   
                     } else {
-                    	var audio = new Audio('../data/Voice/한글/유학생/' + count%10 +'_유학생.mp3');
-                    	audio.play();
+                        var audio = new Audio('../data/Voice/한글/유학생/' + count%10 +'_유학생.mp3');
+                        audio.play();
                     }
                 }
                 status = "stand"
                 await sleep(10);
-            } else if (prediction[1].probability.toFixed(2) >= 0.85) {
+            } else if (prediction[1].probability.toFixed(2) >= 0.92) {
                 status = "squat"
                 await sleep(10);
             }
@@ -366,5 +371,5 @@
         }
 
     </script>
-    </body>
+</body>
 </html>
