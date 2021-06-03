@@ -1,0 +1,52 @@
+{
+	"name": "testing",
+	"version": "2.0.1",
+	"description": "AI Fitness Friend frontend test and build",
+	"author": {
+		"name": "Dulguun"
+	},
+	"contributors": [
+		"Dulguun <dulguun@aifitnessfriend.com>",
+		"H. Jeong <hyeonseop@aifitnessfriend.com>",
+		"J. Rhee <jemin@aifitnessfriend.com>"
+	],
+	"license": "MIT",
+	"main": "index.js",
+	"homepage": "http://aifitnessfriend.tk/",
+	"dependencies": {
+		"log": "1.4.0"
+	},
+	"keywords": [
+		"short",
+		"relevant",
+		"TDD",
+		"jest"
+		"testing",
+		"searching",
+		"test",
+		"test framework",
+		"for"
+	],
+	"dependencies": {
+		"requirejs": "~2.1.8",
+		"node-uuid": "~1.4.1",
+		"underscore": "~1.4.4",
+		"node-forge": "~0.6.12"
+	},
+	"devDependencies": {
+		"grunt": "~0.4.1",
+		"mocha": "~1.13.0",
+		"chai": "~1.7.2",
+		"grunt-contrib-jshint": "~0.6.4",
+		"grunt-contrib-connect": "0.5.0",
+		"grunt-mocha": "~0.4.1",
+		"grunt-mocha-test": "~0.10.0"
+	},
+	"engines": {
+		"node": ">8"
+	},
+	"scripts": {
+		"test": "jest"
+	},
+	"private": true
+}
