@@ -12,6 +12,14 @@ class WorkoutService
         return $routine_movement->times;
     }
 
+    public static function getMovement($routine_id, $movement_id) {
+        $times = self::getTimes($routine_id, $movement_id);
+        $movement = current(Adaptor::getAll('SELECT * FROM movement WHERE id = ?', [$movement_id]));
+        $movement->times = $times;
+
+        return $movement;
+    }
+
     public static function getRoutine($routine_id) {
         return current(Adaptor::getAll('SELECT * FROM routine WHERE id = ?', [$routine_id]));
     }
